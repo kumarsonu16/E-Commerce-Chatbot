@@ -1,0 +1,13 @@
+If you ask out of context(knowledge context that's stored in astraDb) then will not get answer
+
+E.g. 
+Question: what is a capital of india?
+Ans: This question is unrelated to the provided product information. I cannot answer it.
+
+So in this case you have to handle this use case by adding the logic in you routes.
+
+Now context based:
+Question: what is best ear buds?
+Ans: You will get answer from chatbot because question is related to the context.
+Question: can you give me a details about one plus buds?
+Ans: Yes, you will get it from chatbot
